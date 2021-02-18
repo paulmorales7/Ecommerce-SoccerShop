@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+
+--header-height: 3rem;
+
+--font-medium: 500;
+--font-semi-bold: 600;
+--font-bold: 700;
+
+--dark-color: #141414;
+--dark-color-light: #8a8a8a;
+--dark-color-lighten: #F2f2f2;
+--white-color: #fff;
+
+--body-font: 'Poppins', sans-serif;
+--big-font-size: 1.25rem;
+--bigger-font-size: 1.5rem;
+--biggest-font-size: 2rem;
+--h2-font-size: 1.25rem;
+--normal-font-size: .938rem;
+--smaller-font-size: .813rem;
+
+--mb-1: .5rem;
+--mb-2: 1rem;
+--mb-3: 1.5rem;
+--mb-4: 2rem;
+--mb-5: 2.5rem;
+--mb-6: 3rem;
+
+--z-fixed: 100;
+
+--rotate-img: rotate(-30deg);
+}
