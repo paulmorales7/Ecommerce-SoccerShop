@@ -109,7 +109,7 @@ img {
   background-color: var(--dark-color);
 }
 
-.bd-grid {
+#bd-grid {
   min-width: 1024px;
   display: grid;
   grid-template-columns: 100%;
@@ -119,16 +119,18 @@ img {
   margin-right: var(--mb-2);
 }
 
-.l-header {
+.l-header{
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--dark-color-lighten);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.nav {
+.nav{
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -144,5 +146,19 @@ img {
     height: 100vh;
     padding: 2rem;
     background-color: var(--white-color);
+    transition: .5s;
   }
+}
+
+.nav__item{
+    margin-bottom: var(--mb-4);
+}
+
+.nav__logo{
+    font-weight: var(--font-semi-bold);
+}
+
+.nav__toggle, .nav__shop{
+    font-size: 1.3rem;
+    cursor: pointer;
 }
