@@ -42,63 +42,107 @@
   }
 }
 
-*, ::before, ::after{
-    box-sizing: border-box;
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    margin: var(--header-height) 0 0 0;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    color: var(--dark-color);
-    line-height: 1.6;
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--dark-color);
+  line-height: 1.6;
 }
 
-h1,h2,h3,p,ul{
-    margin: 0;
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
 }
 
 ul {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: var(--dark-color);
+a {
+  text-decoration: none;
+  color: var(--dark-color);
 }
 
-img{
-    min-width: 100%;
-    height: auto;
-    display: block;
+img {
+  min-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .section {
-    padding: 5rem 0 2rem;
+  padding: 5rem 0 2rem;
 }
 
-.section-title{
-    padding-right: relative;
-    font-size: var(--big-font-size);
-    margin-bottom: var(--mb-4);
-    text-align: center;
-    letter-spacing: 1rem;
+.section-title {
+  padding-right: relative;
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+  letter-spacing: 1rem;
 }
 
-.section-title::after{
-    content: '';
-    position: absolute;
-    width: 56px;
-    height: .18rem;
-    top: -1rem;
+.section-title::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 0.18rem;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: var(--dark-color);
+}
+
+.bd-grid {
+  min-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--dark-color-lighten);
+}
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 786px) {
+  .nav__menu {
+    position: fixed;
+    top: var(--header-height);
     left: 0;
-    right: 0;
-    margin: auto;
-    background-color: var(--dark-color);
+    width: 70%;
+    height: 100vh;
+    padding: 2rem;
+    background-color: var(--white-color);
+  }
 }
