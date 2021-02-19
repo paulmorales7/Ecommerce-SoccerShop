@@ -1,12 +1,20 @@
 
 function toggleMenu() {
-    var menuBox = document.getElementById('nav-menu');    
+    var menuBox = document.getElementById('nav-menu');  
+    var navLink = document.querySelectorAll('nav__link');
+
     if(menuBox.style.display == "block") { 
       menuBox.style.display = "none";
     }
     else {
       menuBox.style.display = "block";
     }
+
+    function linkAction(){
+        menuBox.style.display = "none"
+    }
+
+    navLink.forEach(n => n.addEventListener('click', linkAction))
   }
 
   const sections = document.querySelectorAll('section[id')
