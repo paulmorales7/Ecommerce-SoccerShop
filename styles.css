@@ -224,7 +224,7 @@ align-self: center;
 .home__new{
     display: block;
     font-style: var(--smaller-font-size);
-    font-weight: var(--font-semi-bold);
+    font-weight: var(--font-medium);
     margin-top: var(--mb-6);
     padding-left: .5rem;
 }
@@ -243,4 +243,20 @@ align-self: center;
 .home__description{
     margin-top: var(--mb-3);
     padding-left: .5rem;
+}
+
+.button{
+    display: inline-block;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    padding: 1.125rem 2rem;
+    font-weight: var(--font-medium);
+    border-radius: .5rem;
+    transition: .3s;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.button:hover{
+    transform: translateY(-.25rem);
 }
