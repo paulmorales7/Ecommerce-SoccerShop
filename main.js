@@ -1,7 +1,7 @@
 
 function toggleMenu() {
     var menuBox = document.getElementById('nav-menu');  
-    var navLink = document.querySelectorAll('nav__link');
+    var navLink = document.querySelectorAll('.nav__link');
 
     if(menuBox.style.display == "block") { 
       menuBox.style.display = "none";
