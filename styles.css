@@ -201,7 +201,6 @@ img {
 
 .home__cleat{
 position: relative;
-
 justify-content: center;
 align-self: center;
 }
@@ -211,27 +210,37 @@ align-self: center;
     height: 220px;
     background-color: var(--dark-color);
     border-radius: 50%;
+    margin-left: 4rem;
 }
 
 .home__img{
     position: absolute;
     top: 1.5rem;
     max-width: initial;
-    width: 275px;
+    width: 400px;
+   right: .1px;
 }
 
 .home__new{
     display: block;
     font-style: var(--smaller-font-size);
     font-weight: var(--font-semi-bold);
-    margin-bottom: var(--mb-2);
+    margin-top: var(--mb-6);
+    padding-left: .5rem;
 }
 
 .home__title{
     font-style: var(--bigger-font-size);
     margin-bottom: var(--mb-1);
+    padding-left: .5rem;
+}
+
+.home__titleh3{
+    padding-left: .5rem;
+    margin-bottom: .5rem;
 }
 
 .home__description{
-    margin-bottom: var(--mb-6);
+    margin-top: var(--mb-3);
+    padding-left: .5rem;
 }
