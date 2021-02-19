@@ -186,3 +186,49 @@ img {
     background-color: var(--white-color);
     box-shadow: 0 2px 4px rgba(0,0,0,.1) ;
 }
+
+.home{
+    background-color: var(--dark-color-lighten);
+    overflow: hidden;
+}
+
+.home__container{
+    height: calc(100vh - var(--header-height));
+}
+
+.home__cleat{
+position: relative;
+
+justify-content: center;
+align-self: center;
+}
+
+.home__shape{
+    width: 200px;
+    height: 220px;
+    background-color: var(--dark-color);
+    border-radius: 50%;
+}
+
+.home__img{
+    position: absolute;
+    top: 1.5rem;
+    max-width: initial;
+    width: 275px;
+}
+
+.home__new{
+    display: block;
+    font-style: var(--smaller-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-2);
+}
+
+.home__title{
+    font-style: var(--bigger-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.home__description{
+    margin-bottom: var(--mb-6);
+}
