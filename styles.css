@@ -147,11 +147,13 @@ img {
     padding: 2rem;
     background-color: var(--white-color);
     transition: .5s;
+    display: none;
   }
 }
 
 .nav__item{
     margin-bottom: var(--mb-4);
+   
 }
 
 .nav__logo{
@@ -161,6 +163,7 @@ img {
 .nav__toggle, .nav__shop{
     font-size: 1.3rem;
     cursor: pointer;
+    
 }
 
 .show{
