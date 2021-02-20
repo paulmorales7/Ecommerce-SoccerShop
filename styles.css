@@ -91,10 +91,10 @@ img {
 
 .section-title {
   padding-right: relative;
-  font-size: var(--big-font-size);
-  margin-bottom: var(--mb-4);
+  font-size: var(--bigger-font-size);
+  margin-bottom: var(--mb-1);
   text-align: center;
-  letter-spacing: 0.2zrem;
+  letter-spacing: 0.1rem;
 }
 
 .section-title::after {
@@ -138,10 +138,6 @@ img {
 }
 
 @media screen and (max-width: 786px) {
-  .l-header {
-    width: 75%;
-  }
-
   .nav__menu {
     position: fixed;
     top: var(--header-height);
@@ -246,6 +242,8 @@ img {
 .home__description {
   margin-top: var(--mb-3);
   padding-left: 0.5rem;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .button {
@@ -262,4 +260,59 @@ img {
 
 .button:hover {
   transform: translateY(-0.25rem);
+}
+
+
+.featured__container{
+    grid-template-columns: repeat (auto, minmax(220px, 1fr) );
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+
+.cleat{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+
+.cleat2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.cleat3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 50%;
+    margin-bottom: 200px;
+}
+
+.cleat__img1{
+    width: 385px;
+    margin-bottom: -80px;
+}
+
+.cleat__img2{
+    width: 300px;
+    margin-bottom: -60px
+}
+.cleat__img3{
+    width: 380px;
+
+}
+
+.cleat__sale{
+    font-size: var(--big-font-size);
 }
