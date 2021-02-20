@@ -277,7 +277,7 @@ img {
     align-items: center;
     padding: 2rem;
     border-radius: 50%;
-    margin-bottom: 100px;
+  
 }
 
 .cleat2{
@@ -285,7 +285,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-top: -50px;
 }
 
 
@@ -295,8 +295,6 @@ img {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    border-radius: 50%;
-    margin-bottom: 200px;
 }
 
 .cleat__img1{
