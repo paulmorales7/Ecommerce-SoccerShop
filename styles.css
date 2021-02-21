@@ -381,3 +381,49 @@ font-weight: var(--font-semi-bold);
     margin-bottom: var(--mb-2);
 }
 
+.hypervenoms{
+    width: 375px;
+}
+
+.button-offer{
+    display: inline-block;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  padding: 1.125rem 2rem;
+  font-weight: var(--font-medium);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.offer_data{
+    text-align: center;
+}
+
+.new_mensimg{
+    width: 350px;
+}
+
+.new_mens{
+    text-align: center;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-new{
+    display: inline-block;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    padding: 1.125rem 1rem;
+    font-weight: var(--font-medium);
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    margin-top: 1rem;
+    margin-left: 7.3rem;
+    margin-bottom: 1rem;
+    width: 150px;
+    
+}
