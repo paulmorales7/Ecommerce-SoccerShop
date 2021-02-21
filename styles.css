@@ -345,3 +345,23 @@ font-weight: var(--font-semi-bold);
     transform: translateX(.25rem);
 }
 
+.collection_container{
+    row-gap: 2rem;
+    justify-content: center;
+}
+
+.collection_data{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.collection_img{
+    width: 400px;
+    margin-bottom: 10%;
+}
+
+.collection_name{
+    font-style: var(--bigger-font-size);
+    margin-bottom: var(--mb-2);
+}
