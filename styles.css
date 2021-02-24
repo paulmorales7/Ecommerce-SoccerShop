@@ -139,7 +139,7 @@ img {
 
 @media screen and (max-width: 786px) {
   .l-header {
-    width: 92%;
+    width: 94%;
   }
 
   .nav__menu {
@@ -196,6 +196,7 @@ img {
 .home {
   background-color: var(--dark-color-lighten);
   overflow: hidden;
+  width: 103%;
 }
 
 .home__container {
