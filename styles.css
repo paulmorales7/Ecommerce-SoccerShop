@@ -139,7 +139,7 @@ img {
 
 @media screen and (max-width: 786px) {
   .l-header {
-    width: 94%;
+    width: 92%;
   }
 
   .nav__menu {
@@ -426,5 +426,18 @@ font-weight: var(--font-semi-bold);
     margin-left: 7.3rem;
     margin-bottom: 1rem;
     width: 150px;
-    
+}
+.new_cleat-img{
+    width: 300px;
+    transform: var(--rotate-img);
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+.button{
+    margin-top: 20px;
+    display: inline-flex;
+    color: var(--white-color);
+    font-weight: var(--font-bold);
+    align-items: center;
 }
