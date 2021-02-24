@@ -482,3 +482,11 @@ font-family: var(--body-font);
 font-size: var(--normal-font-size);
 font-weight: var(--font-semi-bold);
 }
+
+.new_cleat-overlay h3{
+    margin-left: 5%;
+}
+
+.cleatHeat{
+    margin-top: 5%;
+}
