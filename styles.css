@@ -490,3 +490,21 @@ font-weight: var(--font-semi-bold);
 .cleatHeat{
     margin-top: 5%;
 }
+
+.footer_container{
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.footer_box{
+    margin-bottom: var(--mb-4);
+}
+
+.footer_title{
+    font-size: var(--big-font-size);
+}
+
+.footer_link{
+    display: block;
+    width: max-content;
+    margin-bottom: var;
+}
