@@ -139,7 +139,7 @@ img {
 
 @media screen and (max-width: 786px) {
   .l-header {
-    width: 92%;
+    width: 90%;
   }
 
   .nav__menu {
@@ -435,13 +435,13 @@ img {
 }
 
 .buttonSub {
-    display: inline-block;
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    padding: 1.125rem 2rem;
-    font-weight: var(--font-medium);
-    border-radius: 0.5rem;
-    transition: 0.3s;
+  display: inline-block;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  padding: 1.125rem 2rem;
+  font-weight: var(--font-medium);
+  border-radius: 0.5rem;
+  transition: 0.3s;
 }
 
 .newsletter_container {
@@ -461,50 +461,62 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-.newsletter-sub{
-    display: flex;
-    column-gap: .5rem;
-    background-color: var(--white-color);
-    padding: .5rem;
-    border-radius: .5rem;
+.newsletter-sub {
+  display: flex;
+  column-gap: 0.5rem;
+  background-color: var(--white-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
-.newsletter-input{
-    outline: none;
-    border: none;
-    width: 90%;
-    font-size: var(--normal-font-size);
+.newsletter-input {
+  outline: none;
+  border: none;
+  width: 90%;
+  font-size: var(--normal-font-size);
 }
 
-.newsletter::placeholder{
-    color: var( --dark-color);
-font-family: var(--body-font);
-font-size: var(--normal-font-size);
-font-weight: var(--font-semi-bold);
+.newsletter::placeholder {
+  color: var(--dark-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
 }
 
-.new_cleat-overlay h3{
-    margin-left: 5%;
+.new_cleat-overlay h3 {
+  margin-left: 5%;
 }
 
-.cleatHeat{
-    margin-top: 5%;
+.cleatHeat {
+  margin-top: 5%;
 }
 
-.footer_container{
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+.footer_container {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.footer_box{
-    margin-bottom: var(--mb-4);
+.footer_box {
+  margin-bottom: var(--mb-4);
 }
 
-.footer_title{
-    font-size: var(--big-font-size);
+.footer_title {
+  font-size: var(--big-font-size);
 }
 
-.footer_link{
-    display: block;
-    width: max-content;
-    margin-bottom: var;
+.footer_link {
+  display: block;
+  width: max-content;
+  margin-bottom: var;
+}
+
+.footer_social {
+  font-size: 1.5rem;
+  margin-right: 1.25rem;
+}
+
+.footer_copy {
+  padding-top: 3rem;
+  font-size: var(--smaller-font-size);
+  color: var(--dark-color-light);
+  text-align: center;
 }
