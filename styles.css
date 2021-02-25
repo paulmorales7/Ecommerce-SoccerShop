@@ -139,7 +139,7 @@ img {
 
 @media screen and (max-width: 786px) {
   .l-header {
-    width: 90%;
+    width: 91%;
   }
 
   .nav__menu {
@@ -280,6 +280,7 @@ img {
   align-items: center;
   padding: 2rem;
   border-radius: 50%;
+  width: 380px;
 }
 
 .cleat2 {
