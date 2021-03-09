@@ -139,7 +139,7 @@ img {
 
 @media screen and (max-width: 786px) {
   .l-header {
-    width: 91%;
+    width: 93%;
   }
 
   .nav__menu {
@@ -196,7 +196,7 @@ img {
 .home {
   background-color: var(--dark-color-lighten);
   overflow: hidden;
-  width: 103%;
+  width: 104%;
 }
 
 .home__container {
@@ -384,7 +384,7 @@ img {
 }
 
 .hypervenoms {
-  width: 375px;
+  width: 105%;
 }
 
 .button-offer {
@@ -405,7 +405,7 @@ img {
 }
 
 .new_mensimg {
-  width: 350px;
+  width: 105%;
 }
 
 .new_mens {
@@ -522,44 +522,85 @@ img {
   text-align: center;
 }
 
-@media screen and (min-width: 768px){
-    body{
-        margin: 0;
-    }
+@media screen and (min-width: 576px) {
 
-    .section{
-        padding: 7rem 0;
-    }
 
-    .section-title::after{
-        width: 76px;
-    }
+}
 
-    .nav{
-        height: calc(var(--header-height) + 1.5rem);
-    }
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
 
-    .nav__menu{
-        margin-left: auto;
-    }
+  .section {
+    padding: 7rem 0;
+  }
 
-    .nav__list{
-        display: flex;
-    }
+  .section-title::after {
+    width: 76px;
+  }
 
-    .nav__item{
-        margin-left: var(--mb-6);
-        margin-bottom: 0;
-    }
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+  }
 
-    .nav__toggle{
-        display: none;
-    }
+  .nav__menu {
+    margin-left: auto;
+  }
 
-    .home__container{
-        height: 100vh;
-        grid-template-columns: max-content max-content;
-        justify-content: center;
-        align-items: center;
-    }
+  .nav__shop {
+      margin-right: 5rem;
+      padding-left: 3%;
+  }
+
+  .nav__list {
+    display: flex;
+  }
+
+  .nav__item {
+    margin-left: var(--mb-6);
+    margin-bottom: 0;
+  }
+
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav__logo{
+      margin-left: 4%;
+  }
+
+  .home__container {
+    height: 100vh;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .home__cleat {
+      display: flex;
+  }
+
+  .home__data {
+      margin-top: 5rem;
+      margin-right: 3rem;
+  }
+
+  .home__shape {
+      width: 476px;
+      height: 476px;
+      margin-top: 5rem;
+      margin-right: 3rem;
+      margin-left: 0;
+  }
+
+  .home__img {
+      width: 970px;
+      right: 10rem;
+      position: relative;
+  }
+
+
+
 }
