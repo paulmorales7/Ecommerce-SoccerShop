@@ -524,6 +524,20 @@ img {
 
 @media screen and (min-width: 576px) {
 
+    .newsletter_container{
+        grid-template-columns: max-content max-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter-description{
+        margin-bottom: 0;
+    }
+
+    .newsletter-sub{
+        width: 360px;
+        height: max-content;
+    }
 
 }
 
